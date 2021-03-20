@@ -120,7 +120,7 @@ public class NSEToolsTest {
         }
         
         try {
-            nse.getIndexQuote("Nsjdfsjdbf");
+            nse.getIndexQuote("INFY");
         }catch(Exception e) {
             assertTrue(true);
         }
